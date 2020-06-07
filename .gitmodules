@@ -1,0 +1,3 @@
+[submodule "crysfml"]
+	path = crysfml
+	url = https://code.ill.fr/scientific-software/crysfml.git
