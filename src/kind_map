@@ -1,0 +1,23 @@
+{
+ 'real':     {'': 'float',
+ 			  '4': 'float',
+              '8': 'double',
+              'sp': 'float',
+              'cp': 'float',
+              'dp': 'double',
+              'kind = dp': 'double',
+              'idp':'double'},
+
+ 'complex' : {'': 'complex_float',
+ 	          '8' : 'complex_double',
+ 	          '16': 'complex_long_double',
+ 	          'sp': 'complex_float',
+ 	          'cp': 'complex_float',
+ 	          'dp': 'complex_double',
+ 	          'kind = dp': 'complex_double'},
+
+ 'integer' : {'4': 'int',
+	          '': 'int',
+	          '8': 'long_long',
+	          'dp': 'long_long' },
+}

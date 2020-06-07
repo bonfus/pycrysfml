@@ -1,0 +1,9 @@
+--- CFML_Form_CIF.f90
++++ CFML_Form_CIF.f90
+@@ -463,6 +463,8 @@
+         allocate(MSpG%aLatt_trans(3,num_alat))
+         MSpG%aLatt_trans = aLat_tr(:,1:num_alat)
+         MSpG%Num_aLat=num_alat
++      else
++        MSpG%Num_aLat=num_alat
+       end if
